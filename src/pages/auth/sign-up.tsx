@@ -89,7 +89,7 @@ export function SignUp() {
 
             <div className="space-y-2">
               <Label htmlFor="phone">Seu celular</Label>
-              <Input id="phone" type="tel" {...register('email')} />
+              <Input id="phone" type="tel" {...register('phone')} />
             </div>
 
             <Button className="w-full" type="submit" disabled={isSubmitting}>
