@@ -29,7 +29,7 @@ export function OrderTableRow({ order }: OrderTabelRowProps) {
 
   const { mutateAsync: cancelOrderFn } = useMutation({
     mutationFn: cancelOrder,
-    onSuccess(_, { orderId }) {
+    async onSuccess(_, { orderId }) {
       const ordersListCache = queryClient.getQueriesData<GetOrdersResponse>({
         queryKey: ['orders'],
       })
@@ -43,7 +43,7 @@ export function OrderTableRow({ order }: OrderTabelRowProps) {
           ...cacheData,
           orders: cacheData.orders.map((order) => {
             if (order.orderId === orderId) {
-              return { ...order, statuts: 'canceled' }
+              return { ...order, status: 'canceled' }
             }
             return order
           }),
