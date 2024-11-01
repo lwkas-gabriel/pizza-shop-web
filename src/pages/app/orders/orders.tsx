@@ -65,8 +65,8 @@ export function Orders() {
                   <TableHead className="w-[140px]">Status</TableHead>
                   <TableHead>Cliente</TableHead>
                   <TableHead className="w-[140px]">Total do Pedido</TableHead>
-                  <TableHead className="w-[164px]">Botão de Ação 1</TableHead>
-                  <TableHead className="w-[132px]">Botão de Ação 1</TableHead>
+                  <TableHead className="w-[164px]"></TableHead>
+                  <TableHead className="w-[132px]"></TableHead>
                 </TableRow>
               </TableHeader>
 
