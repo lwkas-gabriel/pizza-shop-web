@@ -13,13 +13,13 @@ import { getPopularProducts } from '@/api/get-popular-products'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-const data = [
-  { product: 'Pepperoni', amount: 40 },
-  { product: 'Mussarela', amount: 32 },
-  { product: 'Marguerita', amount: 45 },
-  { product: 'Quatro Queijos', amount: 54 },
-  { product: 'Frango', amount: 25 },
-]
+// const data = [
+//   { product: 'Pepperoni', amount: 40 },
+//   { product: 'Mussarela', amount: 32 },
+//   { product: 'Marguerita', amount: 45 },
+//   { product: 'Quatro Queijos', amount: 54 },
+//   { product: 'Frango', amount: 25 },
+// ]
 
 const COLORS = [
   colors.sky[500],
