@@ -30,7 +30,7 @@ export function MonthCanceledOrdersAmountCard() {
                   <span className="text-rose-500 dark:text-rose-400">
                     {monthCanceledOrdersAmount.diffFromLastMonth}%
                   </span>{' '}
-                  em relação a ontem
+                  em relação ao mês passado
                 </p>
               </>
             ) : (
@@ -39,7 +39,7 @@ export function MonthCanceledOrdersAmountCard() {
                   <span className="text-emerald-500 dark:text-emerald-400">
                     {monthCanceledOrdersAmount.diffFromLastMonth}%
                   </span>{' '}
-                  em relação a ontem
+                  em relação ao mês passado
                 </p>
               </>
             )}
